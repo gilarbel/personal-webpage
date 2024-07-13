@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gil Arbel - Attorney at Law</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b5fe 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding img {
+            height: 70px;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('your-image.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background: #77b5fe;
+            color: #fff;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            background: #333;
+            color: #fff;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        .contact-form h2 {
+            margin-top: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form input[type="submit"] {
+            background: #77b5fe;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Gil Arbel</h1>
+            <p>Your trusted advocate in Los Angeles</p>
+        </div>
+    </section>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Gil Arbel" style="width:150px;float:left;margin-right:20px;">
+            <p>Born and raised in Los Angeles, I am a dedicated and motivated attorney specializing in criminal defense, personal injury, and worker's compensation. I earned my Bachelor's of Science in Biology from UCLA and my Juris Doctorate from USC Gould School of Law. With a passion for justice and a commitment to my clients, I strive to provide exceptional legal representation and support.</p>
+        </section>
+        <section id="services" class="content">
+            <h2>Legal Services</h2>
+            <p>I offer a range of legal services including:</p>
+            <ul>
+                <li><strong>Criminal Defense:</strong> In Your Corner</li>
+                <li><strong>Personal Injury:</strong> Proven Success</li>
+                <li><strong>Worker's Compensation:</strong> Justice for You</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+            <p>Office Address: 5627 Kanan Rd. Ste. 480, Agoura Hills, CA 91301</p>
+            <p>Email: gil@arbelegal.com | Phone: 818-968-7149</p>
+        </section>
+    </div>
+</body>
+</html>
